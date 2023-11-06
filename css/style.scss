@@ -1,0 +1,160 @@
+$theme-colors: (
+    "primary-black" : #000000,
+    "primary-white" : #ffffff,
+    "primary-purple" : #6900FF,
+    "point" : #eb4002,
+    "purple-main" : #6900FF,
+    "light1" : #c7a7fc,
+    "light2" : #d9bfff,
+    "light3" : #f6eeff,
+    "light4" : #f9f6fd,
+    "gray0": #f8f8f8,
+    "gray1": #E0E0E0,
+    "gray2": #BDBDBD,
+    "gray5": #adb5bd,
+    "gray3": #828282,
+    "gray4": #4F4F4F,
+    "gray-600": #6c757d,
+    "gray-700": #495057,
+    "gray-800": #343a40,
+    "gray-900": #212529
+
+    // "primary":    #6900FF,
+);
+
+$font-sizes : (
+    0: 3rem,
+    1: 1.75rem, //m28
+    2: 1.5rem, //m24
+    3: 1.125rem, //m18
+    4: 1rem, //m16
+    5: .875rem, //m14
+    6: .75rem, //m12
+    7: .625rem, //m10
+);
+
+// $text-align : (
+//   "text-center" : center,
+//   "text-left" : left,
+//   "text-right" : right,
+//   "text-sm-center" : center,
+//   "text-sm-left" : left,
+//   "text-sm-right" : right,
+//   "text-md-center" : center,
+//   "text-md-left" : left,
+//   "text-md-right" : right,
+//   "text-lg-center" : center,
+//   "text-lg-left" : left,
+//   "text-lg-right" : right,
+//   "text-xl-center" : center,
+//   "text-xl-left" : left,
+//   "text-xl-right" : right,
+// );
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+:root {
+    --bs-link-color: unset;
+    --bs-link-hover-color: unset;
+}
+*, :after, :before, ::after, ::before {box-sizing:border-box}
+* {margin:0; padding: 0; background-repeat: no-repeat; background-size: cover; background-position: center center;}
+body, html {height:100%; font-family: 'Pretendard'; font-weight: 400;}
+body {-webkit-font-smoothing:antialiased; line-height:1.5}
+canvas, img, picture, svg, video {display:block;max-width:100%}
+button, input, select, textarea {font:inherit; border: 0; background-color: transparent;}
+button{cursor: pointer;}
+h1, h2, h3, h4, h5, h6, p {overflow-wrap:break-word}
+#__next, #root {isolation:isolate}
+ul,ol{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{vertical-align: top; width: 100%;}
+
+.navbar-toggler:focus {
+    outline: none !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+@media (min-width: 576px) {
+    .position-sm-static {
+      position: static !important;
+    }
+    .position-sm-relative {
+      position: relative !important;
+    }
+    .position-sm-absolute {
+      position: absolute !important;
+    }
+    .position-sm-fixed {
+      position: fixed !important;
+    }
+    .position-sm-sticky {
+      position: sticky !important;
+    }
+}
+@media (min-width: 768px) {
+    .position-md-static {
+      position: static !important;
+    }
+    .position-md-relative {
+      position: relative !important;
+    }
+    .position-md-absolute {
+      position: absolute !important;
+    }
+    .position-md-fixed {
+      position: fixed !important;
+    }
+    .position-md-sticky {
+      position: sticky !important;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .position-lg-static {
+      position: static !important;
+    }
+    .position-lg-relative {
+      position: relative !important;
+    }
+    .position-lg-absolute {
+      position: absolute !important;
+    }
+    .position-lg-fixed {
+      position: fixed !important;
+    }
+    .position-lg-sticky {
+      position: sticky !important;
+    }
+    .fw-lg-normal {
+        font-weight: normal !important;
+    }
+    .fs-lg-0{
+        font-size : 16px !important;
+    }
+    .border-lg-top-0 {    border-top: 0 !important; }
+    .border-lg-right-0 {  border-right: 0 !important; }
+    .border-lg-bottom-0 { border-bottom: 0 !important; }
+    .border-lg-left-0 {   border-left: 0 !important; }
+    .bg-lg-none {background-color: transparent !important;}
+}
+  
+@media (min-width: 1200px) {
+    .position-xl-static {
+      position: static !important;
+    }
+    .position-xl-relative {
+      position: relative !important;
+    }
+    .position-xl-absolute {
+      position: absolute !important;
+    }
+    .position-xl-fixed {
+      position: fixed !important;
+    }
+    .position-xl-sticky {
+      position: sticky !important;
+    }
+}

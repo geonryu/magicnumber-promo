@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "promotion-page",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

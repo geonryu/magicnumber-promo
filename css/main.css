@@ -1,0 +1,60 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 999999;
+}
+
+header h1 a{position: relative;}
+header h1 .w{opacity: 1; transition: opacity 0.2s;}
+header h1 .d{position: absolute; top: 0; left: 0; opacity: 0; transition: opacity 0.2s;}
+
+
+header.ex{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+header.ex h1 .w{opacity: 0;}
+header.ex h1 .d{opacity: 1;}
+header.ex .appdown a{transition: all 0.2s; background-color: #fff; color: #6900FF !important;}
+
+main .intro{height: 100vh; position: relative;}
+h2{z-index: 99999; text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);}
+main .intro .object{position: relative;}
+main .intro .object .left{transform: translateY(50%); opacity: 0;}
+main .intro .object .right{position: absolute; bottom: -20px; right: 0; transform: translateY(80%); opacity: 0;}
+main .intro .appdown{position: absolute; bottom: 50px; left: 50%; transform: translateX(-50%);}
+
+#accordion button .num{
+    width: 20px;
+    height: 20px;
+}
+ 
+.qa .q .cmt{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.qa .a .cmt{
+    border-top-left-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 768px) {  }
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) { 
+  
+ }
+@media (min-width: 1400px) {  }
