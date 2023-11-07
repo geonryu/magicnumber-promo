@@ -21,7 +21,7 @@ header.ex h1 .w{opacity: 0;}
 header.ex h1 .d{opacity: 1;}
 header.ex .appdown a{transition: all 0.2s; background-color: #fff; color: #6900FF !important;}
 
-main .intro{height: 100vh; position: relative;}
+main .intro{height: 100vh; position: relative; background-image: url(../images/bnbg.jpg); background-size: cover; background-position: center center;}
 h2{z-index: 99999; text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);}
 main .intro .object{position: relative;}
 main .intro .object .left{transform: translateY(50%); opacity: 0;}
